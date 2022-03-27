@@ -1,0 +1,2 @@
+- name: Create a new file
+  file: path=/tmp/testfile{{ cur_time_ns }}.txt state=touch
